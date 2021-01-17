@@ -23,7 +23,6 @@ class RandomUtilsTest {
 
     @Test
     @DisplayName("generated number is greater than equal to startInclusive")
-
     void testStartInclusive() {
         int sample = RandomUtils.nextInt(1, 10);
         assertNotEquals(0, sample);
